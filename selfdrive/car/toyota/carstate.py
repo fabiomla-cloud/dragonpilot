@@ -88,7 +88,7 @@ class CarState(CarStateBase):
     else:
       ret.cruiseState.available = cp.vl["PCM_CRUISE_2"]['MAIN_ON'] != 0
       ret.cruiseState.speed = cp.vl["PCM_CRUISE_2"]['SET_SPEED'] * CV.KPH_TO_MS
-      self.low_speed_lockout = False #cp.vl["PCM_CRUISE_2"]['LOW_SPEED_LOCKOUT'] == 2 Teste nova Fork2
+      self.low_speed_lockout = False #cp.vl["PCM_CRUISE_2"]['LOW_SPEED_LOCKOUT'] == 2 Teste nova Fork
     if self.CP.carFingerprint in [CAR.LEXUS_ISH, CAR.LEXUS_GSH]:
       # Lexus ISH does not have CRUISE_STATUS value (always 0), so we use CRUISE_ACTIVE value instead
       self.pcm_acc_status = cp.vl["PCM_CRUISE"]['CRUISE_ACTIVE']
