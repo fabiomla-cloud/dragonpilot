@@ -330,13 +330,13 @@ class CarInterface(CarInterfaceBase):
     if ret.enableGasInterceptor:
       ret.gasMaxBP = [0., 9., 35]
       ret.gasMaxV = [0.2, 0.5, 0.7]
-      ret.longitudinalTuning.kpV = [0.15, 0.1, 0.0625] # Mudanca feita para melhorar a aceleracao
-      ret.longitudinalTuning.kiV = [0.045, 0.03] # Mudanca feita para melhorar a aceleracao
+      ret.longitudinalTuning.kpV = [0.15, 0.1, 0.0625] # Mudanca feita para melhorar a aceleracao Corolla Hybrid Brazil 2020 
+      ret.longitudinalTuning.kiV = [0.045, 0.03] # Mudanca feita para melhorar a aceleracao Corolla Hybrid Brazil 2020 
     else:
       ret.gasMaxBP = [0.]
       ret.gasMaxV = [0.5]
-      ret.longitudinalTuning.kpV = [0.45, 0.3, 0.1875] # Mudanca feita para melhorar a aceleracao
-      ret.longitudinalTuning.kiV = [0.135, 0.09] # Mudanca feita para melhorar a aceleracao
+      ret.longitudinalTuning.kpV = [0.45, 0.3, 0.1875] # Mudanca feita para melhorar a aceleracao Corolla Hybrid Brazil 2020 
+      ret.longitudinalTuning.kiV = [0.135, 0.09] # Mudanca feita para melhorar a aceleracao Corolla Hybrid Brazil 2020 
 
     return ret
 
