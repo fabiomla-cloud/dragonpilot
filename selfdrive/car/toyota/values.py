@@ -621,6 +621,7 @@ FW_VERSIONS = {
       b'\x028966312Q4000\x00\x00\x00\x008966A4703000\x00\x00\x00\x00',
       b'\x038966312L7000\x00\x00\x00\x008966A4703000\x00\x00\x00\x00897CF1205001\x00\x00\x00\x00',
       b'\x038966312N1000\x00\x00\x00\x008966A4703000\x00\x00\x00\x00897CF1203001\x00\x00\x00\x00',
+      b'\x02896630ZN8000\x00\x00\x00\x008966A4703000\x00\x00\x00\x00', # Brazil 2020 Corolla Hybrid FPv2 from berno22
     ],
     (Ecu.eps, 0x7a1, None): [
       b'8965B12361\x00\x00\x00\x00\x00\x00',
@@ -630,6 +631,7 @@ FW_VERSIONS = {
       b'\x018965B12500\x00\x00\x00\x00\x00\x00',
       b'\x018965B12520\x00\x00\x00\x00\x00\x00',
       b'\x018965B12530\x00\x00\x00\x00\x00\x00',
+      b'\x018965B12490\x00\x00\x00\x00\x00\x00', # Brazil 2020 Corolla Hybrid FPv2 from berno22
     ],
     (Ecu.esp, 0x7b0, None): [
       b'F152612590\x00\x00\x00\x00\x00\x00',
@@ -641,6 +643,7 @@ FW_VERSIONS = {
       b'F152612A10\x00\x00\x00\x00\x00\x00',
       b'F152642540\x00\x00\x00\x00\x00\x00',
       b'F152612A00\x00\x00\x00\x00\x00\x00',
+      b'F152612820\x00\x00\x00\x00\x00\x00', # Brazil 2020 Corolla Hybrid FPv2 from berno22
     ],
     (Ecu.fwdRadar, 0x750, 0xf): [
       b'\x018821F3301100\x00\x00\x00\x00',
